@@ -1,0 +1,59 @@
+*{
+    font-family: 'Sunflower', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+body{
+    border-top: black;
+    border-style:outset;
+    border-color: greenyellow;
+    border-width: 15px;
+    background-color: antiquewhite;
+}
+div{
+    width:"1200px";
+    height:"200px";
+    border: 10px;
+    border-color: black;
+    border-style: dashed;
+    padding: 20px;
+    margin: 10px;
+
+}
+.p1{
+    background-color: rosybrown;
+    border-color: blue;
+    /* except pink */
+}
+#first{
+    background-color: aqua;
+}
+#three{
+    border-style: inset;
+    background-color: brown;
+    
+}
+
+span {
+  color:blue;  
+}
+.first-para{
+    background-color: rgb(196, 207, 255);
+
+}
+#p1{
+    background-color: rgb(226, 43, 156);
+     font-family:'Times New Roman', Times, serif;
+     color: rgb(243, 237, 237);
+}
+#p2>span{
+    font-family: 'Luckiest Guy', cursive;
+    color:greenyellow;
+}
+#p3{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#first span{
+    color:bisque
+}
+

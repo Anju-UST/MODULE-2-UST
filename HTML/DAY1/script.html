@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="color: brown;" id="heading" class="abc";>Intoduction to Dev Tools</h1>
+    <h2 style="color: blueviolet;">HELLO</h2>
+    <script>
+        console.log("testing console devtools");
+        console.error("...error log");
+        console.warn("error warning...");
+
+        console.table(
+            [
+            {"name":"john","age":"21"},
+            {"name":"mark","age":"24"}
+
+    ]
+        );
+
+        console.group('groupInfo');
+        console.log("ann");
+        console.log("amie");
+        console.log("john");
+        console.groupEnd('groupInfo');
+        console.log(document);
+        console.info(document.URL);
+        console.dir(document);
+        localStorage.setItem("topic","dev tools after lunch");
+       console.log( localStorage.getItem('topic'));
+        localStorage.setItem("sub","dev tools before lunch");
+        console.log(localStorage.getItem('sub'));
+       document.cookie='url=https://ust.com';
+        document.cookie='url=https://secureurl.com';
+    </script>
+</body>
+</html>
